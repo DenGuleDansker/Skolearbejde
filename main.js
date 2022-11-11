@@ -66,7 +66,7 @@ app.use(morgan("combined"));
 app.post("/api/helloQuery", async (req, res) => {
   try {
     // Lav query
-    const query = `SELECT 'Hello, World' as message`;
+    const query = `SELECT 'Hello, Marcus' as message`;
     queryData = await client.query(query);
     // Giv svar tilbage til JavaScript
     res.json({
