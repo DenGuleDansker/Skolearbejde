@@ -84,7 +84,7 @@ app.post("/api/helloQuery", async (req, res) => {
 });
 
 app.get("/api/hello", async (req, res) => {
-  res.json({ "message": "Hello, World!" });
+  res.json({ "message": "Hello, Marcus!" });
 })
 
 // Web-serveren startes.
